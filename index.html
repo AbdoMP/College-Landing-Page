@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Fayoum University</h1>
+    </header>
+    <main>
+        <section id="about" class="university-info">
+            <h2>About Fayoum University</h2>
+            <p>
+                Fayoum University is a leading public institution in Egypt dedicated to high-quality education and
+                research. Located in the vibrant city of Fayoum, the university offers a range of undergraduate and
+                graduate programs across various disciplines, including Science, Engineering, Arts, Law and Medicine.
+                <br>
+                The modern campus features advanced facilities, including laboratories, libraries, and student
+                accommodations. Fayoum University emphasizes research and community engagement, fostering a
+                collaborative environment for students and faculty.
+                <br>
+                With a commitment to academic excellence and local impact, the university provides a dynamic campus life
+                enriched by extracurricular activities and community service opportunities.
+            </p>
+            <img src="images/campus.jpg" alt="University Campus">
+        </section>
+        <section id="students">
+            <h2>Students</h2>
+            <div class="card" onclick="location.href='students/grades.html'">
+                <img src="images/grades.jpg" alt="Grades">
+                <h3>Grades and GPA</h3>
+                <p>Check your grades and GPA</p>
+            </div>
+            <div class="card" onclick="location.href='students/courses.html'">
+                <img src="images/courses.jpg" alt="Courses">
+                <h3>Courses</h3>
+                <p>View your enrolled courses</p>
+            </div>
+            <div class="card" onclick="location.href='students/books.html'">
+                <img src="images/books.jpg" alt="Books">
+                <h3>Books</h3>
+                <p>View available books</p>
+            </div>
+        </section>
+        <section id="instructors">
+            <h2>Instructors</h2>
+            <div class="card" onclick="location.href='instructors/courses.html'">
+                <img src="images/instructor_courses.jpg" alt="Instructor Courses">
+                <h3>Courses</h3>
+                <p>View your courses</p>
+            </div>
+            <div class="card" onclick="location.href='instructors/contact.html'">
+                <img src="images/contact.jpg" alt="Contact">
+                <h3>Contact</h3>
+                <p>Contact the university</p>
+            </div>
+            <div class="card" onclick="location.href='instructors/exams.html'">
+                <img src="images/exams.jpg" alt="Exams">
+                <h3>Exams</h3>
+                <p>View and manage exams</p>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
